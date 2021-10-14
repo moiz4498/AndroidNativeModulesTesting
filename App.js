@@ -17,7 +17,7 @@ const App = () => {
       <StatusBar />
       <ScrollView contentInsetAdjustmentBehavior="automatic">
         <Text>hello from React Native</Text>
-        <HelloWorldSquare exampleProp="this is prop from RN to Native...good hogaya ji okay" style={styles.square}/>
+        <HelloWorldSquare exampleProp="this is prop from RN to Native..." style={styles.square}/>
         <HighCharts style={styles.chart} />
       </ScrollView>
     </SafeAreaView>
